@@ -5,7 +5,13 @@
     }
   ],
   "settings": {
-    "cSpell.words": ["dotenv", "fastapi", "sessionmaker", "sqlalchemy"],
+    "cSpell.words": [
+      "dotenv",
+      "fastapi",
+      "pymysql",
+      "sessionmaker",
+      "sqlalchemy"
+    ],
     "[python]": {
       "editor.defaultFormatter": "ms-python.autopep8"
     },
