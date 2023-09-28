@@ -7,7 +7,12 @@ app = FastAPI(
 )
 
 
-@app.get("/")
+@app.get(
+    "/",
+    name="Root",
+    description="The root endpoint for the application",
+    tags=["Root"]
+)
 async def root() -> dict[str, str]:
     """The root route for the app."""
     return {"message": "Hello World"}
