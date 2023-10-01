@@ -6,7 +6,7 @@ from dotenv import find_dotenv, load_dotenv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-find_dotenv(load_dotenv())
+load_dotenv(find_dotenv())
 
 MYSQL_HOST = os.environ.get("MYSQL_HOST")
 MYSQL_USER = os.environ.get("MYSQL_USER")
